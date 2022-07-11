@@ -1,0 +1,31 @@
+header {
+    background-color: rgb(28, 28, 50);
+    text-align: center;
+    color: white;
+    font-size: 200%;   
+}
+
+#introSize {
+    font-size: 70%;
+}
+
+aside {
+    width: 20%;
+    background-color:rgb(106, 105, 107);
+}
+
+
+.bullets {
+    list-style-type: none;
+}
+
+section {
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: rgb(28, 28, 50);
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
