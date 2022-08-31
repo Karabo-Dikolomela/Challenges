@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/JS challenges/front end validation/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Usser input form-->
+    <form>
+    <label>New Task:
+       <input type = "text" id = "newTask" required>
+       <p id = "newTaskError">Please make sure your task contains no HTML characters html</p>
+    </label><br>
+
+    <label>Task description:
+
+        <textarea name = "description" optional></textarea>
+
+
+    </label><br>
+
+    <label>Set Task due date:
+        <input type = "date" id = "setDate" required>
+        <p id = "setDateError"> Please select a date</p>
+    </label><br>
+
+    <label>Set Task due time:
+        <input type = "time" id = "setTime" required>
+        <p id = "setTimeError">Please set time</p>
+    </label><br>
+    <button onclick = "myValidation()" onclick = "myValidation2()" onclick = "myValidation3()">Submit</button>
+    </form>
+    <!--list of tasks-->
+    
+    <ul id="taskList"></ul>
+
+    <script src = "/JS challenges/front end validation/index.js"></script>
+</body>
+</html>

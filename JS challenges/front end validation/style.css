@@ -1,0 +1,8 @@
+input:invalid {
+    color: red;
+}
+
+p {
+    color: red;
+    display: none;
+}
